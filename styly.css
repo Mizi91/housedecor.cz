@@ -1,0 +1,340 @@
+.top-navigation-bar {height: 120px;}
+
+.welcome-block {display: flex;flex-flow: row wrap;background-color: #f5f1e9;align-items: center;}
+.welcome-block__left {width: 40%;text-align: center;padding: 40px;}
+.welcome-block__left h2 {font-size: 3em;font-style: italic;}
+.homepage-box.welcome-wrapper .welcome-block__left p {font-size: 1.5em;}
+.welcome-block__left .btn.btn-secondary {background-color: transparent;color: black!important;min-height: 60px;line-height: 60px;min-width: 200px;font-size: 1.5em;border: 1px solid black;margin-top: 40px;}
+.welcome-block__left .btn.btn-secondary:hover {background-color: black;color: #fff!important;}
+.welcome-block__right {width: 60%;}
+.welcome-block__right img {transform: scale(1.2);}
+
+@media (max-width: 1400px) {
+  .welcome-block__right img {transform: scale(1.05);}
+}
+
+@media (max-width: 1100px) {
+  .welcome-block__right img {transform: scale(1);}
+  .welcome-block__left {width: 100%;}
+  .welcome-block__right {width: 100%;}
+}
+@media (max-width: 767px) {
+  .welcome-block__left {padding: 40px 25px;}
+  .welcome-block__left h2 {margin-top: 0;}
+}
+
+.brands-carousel {margin-top: 50px!important;margin-bottom: 60px!important;}
+.brands-carousel .slick-track {display: flex;align-items: center;}
+.brands-carousel__item {padding: 15px;text-align: center;display: flex!important;align-items: center;justify-content: center;}
+.brands-carousel__item img {max-width: 100%;}
+
+@media (max-width: 767px) {
+  .brands-carousel {margin-bottom: 20px!important;}
+}
+
+/*** KOZÁK ***/
+
+/* .products-block .p-code {
+  display: none !important;
+}
+
+.p-code,
+.p-code span[data-micro="sku"] {
+  display: none !important;
+} */
+
+main#content #products .product .image img {
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+}
+
+.type-detail .shp-tabs-wrapper .basic-description h3:first-child {
+  display: none;
+}
+
+
+.p-detail .p-image-wrapper img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+}
+
+
+.p-detail .p-thumbnails-wrapper .p-thumbnails {
+  margin-left: 0;
+}
+
+.type-detail .p-detail .p-thumbnails-wrapper .p-thumbnails-inner a.p-thumbnail {
+  width: 100px;
+  height: 100px;
+}
+
+/** HEADER - MAIN MENU collapsible **/
+#header #navigation ul.menu-level-1>li.exp>ul {
+  background-color: rgba(255, 255, 255, .9);
+}
+
+#header #navigation ul.menu-level-1>li.exp>ul>li>a.menu-image {
+  display: none;
+}
+
+#header #navigation ul.menu-level-1>li.exp>.menu-level-2 {
+  padding: 25px 30px !important;
+}
+
+#header #navigation ul.menu-level-1>li.exp>.menu-level-2>li {
+  margin-bottom: 0;
+}
+
+#header #navigation ul.menu-level-1>li.exp>.menu-level-2>li>div {
+  width: 100%;
+}
+
+#header #navigation ul.menu-level-1>li.exp>.menu-level-2>li>div>a {
+  background: transparent url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAANCAYAAACUwi84AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTM4IDc5LjE1OTgyNCwgMjAxNi8wOS8xNC0wMTowOTowMSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTcgKFdpbmRvd3MpIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOjQ4MDYwQjM0N0FFMjExRThCRjgyQzIyMERFNDY1NDVCIiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOjQ4MDYwQjM1N0FFMjExRThCRjgyQzIyMERFNDY1NDVCIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6NDgwNjBCMzI3QUUyMTFFOEJGODJDMjIwREU0NjU0NUIiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6NDgwNjBCMzM3QUUyMTFFOEJGODJDMjIwREU0NjU0NUIiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz4E9TaXAAABNklEQVR42mJ88eweQ/mRa0H/Gf8xd1nrrGZAA8yvrVx9mBgZ1zEyMHpuf/hiv7u8+BNkBUzfPr2///fPr3uMjIy8rEzMS/KPnlNCUTDZ3frqp/cfYxgYmd4BTVHmYGCfX3z0kiBcAYiY4W938vfff+kMDP9/AxXZsTKwTqo4fIUZJMcIciQMVBy5UgQ0qRuk8f+//00/GX81oigAKzp67QiQsmZkYPj3g+GXOROyZOnhq/FAygTC+z8DiC/DFZTsP+3KzMQ0Dchk/8/AsO0fw//ifmvDn2AFaWt3arKwcs4DGssF1HXpB8OP1E5rnR/ggHpn5abExSu05D/Df00g/+XP/3+CJ9gY3oGZzPLv3x+gnf/NgOwff///S+i30b+I7C4Whv8Ma4F0AZD+3W2rswM9LgACDAA1X3TblCRVlAAAAABJRU5ErkJggg==) no-repeat left 10px;
+  margin: 0 !important;
+  padding: 2px 0 1px 20px !important;
+  color: #5a5959;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 29px;
+  text-transform: uppercase;
+}
+
+
+[data-testid="linkWebsiteLogo"] img {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.top-navigation-bar {
+  height: 98px;
+}
+
+@media all and (min-width: 768px) {
+  #header #navigation ul.menu-level-1>li .menu-level-2>li>div>ul.menu-level-3,
+  #header #navigation ul.menu-level-1>li.exp>.menu-level-2>li>div>ul.menu-level-3 {
+    display: none !important;
+  }
+}
+
+@media all and (max-width: 767px) {
+  #header #navigation ul.menu-level-1>li.exp>.menu-level-2 {
+    margin-top: 0 !important;
+  }
+
+  #header #navigation ul.menu-level-1>li .menu-level-2>li.has-third-level.clicked>div {
+    top: 0 !important;
+  }
+
+  #header #navigation ul.menu-level-1>li.exp>.menu-level-2>li>div>ul.menu-level-3 li a {
+    margin-left: 0 !important;
+  }
+}
+
+/** HOMEPAGE **/
+.products-block.products .slick-list .slick-track .product .image img {
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+}
+
+@font-face {
+  font-family: 'DidotLTPro-Italic';
+  src: url('https://mrcek2711.github.io/HDfont/DidotLTPro-Italic%20(1).woff') format('woff');
+  font-style: italic;
+  font-weight: normal;
+}
+
+
+@font-face {
+  font-family: 'DidotLTPro-Italic';
+  src: url('https://mrcek2711.github.io/HDfont/DidotLTPro-Italic%20(1).woff') format('woff');
+  font-style: italic;
+  font-weight: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'DidotLTPro-Italic', serif !important;
+  font-style: italic !important;
+}
+
+/* HLAVNÍ OBAL NEWSLETTERU */
+.custom-footer__newsletter.extended.newsletter {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 40px;
+  padding: 40px;
+  background-color: #d9e5e7 !important;
+  background-image: url('https://723729.myshoptet.com/user/documents/upload/srdce newsletter.svg') !important;
+  background-repeat: no-repeat !important;
+  background-position: left center !important;
+  background-size: 426px auto !important;
+  font-family: 'Segoe UI', sans-serif;
+  box-sizing: border-box;
+}
+
+
+.custom-footer__newsletter .newsletter-header {
+  max-width: 380px;
+  flex: 1 1 300px;
+  margin-left: 0;
+  text-align: left;
+  padding-left: 0 !important;
+}
+
+.custom-footer__newsletter .newsletter-header::before {
+  content: "Speciální akce";
+  display: block;
+  font-family: 'DidotLTProItalic', serif;
+  font-style: italic;
+  font-size: 41px;
+  color: #444;
+  margin-bottom: 5px;
+  line-height: 1.2;
+}
+
+.custom-footer__newsletter .newsletter-header::after {
+  content: "pro naše zákazníky prostřednictvím E-MAILU";
+  display: block;
+  font-size: 18px;
+  color: #666;
+  line-height: 1.3;
+  font-weight: normal;
+  font-style: normal;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+
+.custom-footer__newsletter .subscribe-form.compact-form {
+  width: 100%;
+  max-width: 420px;
+  flex: 1 1 300px;
+}
+
+
+.custom-footer__newsletter .subscribe-form.compact-form fieldset {
+  display: flex !important;
+
+  flex-direction: column !important;
+  gap: 10px !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  border: none !important;
+  width: 100% !important;
+  align-items: stretch !important;
+  box-sizing: border-box !important;
+}
+
+.custom-footer__newsletter .subscribe-form.compact-form fieldset>div {
+  display: contents;
+}
+
+.custom-footer__newsletter .subscribe-form.compact-form input[type="email"] {
+  all: unset;
+  text-align: center !important;
+  display: block !important;
+  width: 100% !important;
+  min-width: 0 !important;
+  padding: 10px 15px !important;
+  border: 2px dashed #999 !important;
+  font-size: 15px !important;
+  font-family: 'Segoe UI', sans-serif !important;
+  font-style: italic !important;
+  color: #444 !important;
+  box-sizing: border-box !important;
+  margin-bottom: 0 !important;
+  border-radius: 0 !important;
+  order: 0 !important;
+}
+
+
+.custom-footer__newsletter .subscribe-form.compact-form button,
+.custom-footer__newsletter .subscribe-form.compact-form input[type="submit"] {
+  all: unset;
+  display: block !important;
+  width: 100% !important;
+  min-width: 0 !important;
+  padding: 10px 15px !important;
+  background-color: #d3b16a !important;
+  border: 2px dashed #555 !important;
+  font-size: 15px !important;
+  font-family: 'Segoe UI', sans-serif !important;
+  text-transform: none !important;
+  text-align: center !important;
+  cursor: pointer !important;
+  color: #333 !important;
+  transition: background-color 0.3s !important;
+  border-radius: 0 !important;
+  white-space: normal !important;
+  box-sizing: border-box !important;
+  order: 1 !important;
+}
+
+
+
+.custom-footer__newsletter .subscribe-form.compact-form button:hover,
+.custom-footer__newsletter .subscribe-form.compact-form input[type="submit"]:hover {
+  background-color: #e2dfd6 !important;
+}
+
+
+.custom-footer__newsletter .subscribe-form.compact-form br {
+  display: none !important;
+}
+
+
+.footer-title {
+  display: inline-block;
+  font-style: italic;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 500;
+  white-space: nowrap;
+  vertical-align: middle;
+}
+
+
+.footer-title+.custom-payment-icons {
+  display: inline-flex;
+  gap: 6px;
+  transform: translateY(8px);
+  padding-left: 20px;
+}
+
+
+.custom-payment-icons img {
+  height: 30px;
+  width: auto;
+  object-fit: contain;
+  transition: transform 0.2s ease;
+}
+
+.custom-payment-icons img:hover {
+  transform: scale(1.05);
+}
+
+
+span.copyright {
+  display: none !important;
+}
+
+.footer-contact p {
+  background: url('https://723729.myshoptet.com/user/documents/upload/ikona%20telefon.svg') no-repeat left center;
+  padding-left: 28px;
+  background-size: 22px;
+  line-height: 1.6;
+  margin: 6px 0;
+}
+
+.footer-contact p:last-of-type {
+  background-image: url('https://723729.myshoptet.com/user/documents/upload/ikona%20mail_1.svg');
+}
