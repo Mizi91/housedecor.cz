@@ -1,0 +1,9 @@
+wp-config.php
+.htaccess
+/.htaccess
+wp-admin/
+wp-includes/
+wp-content/*
+!wp-content/themes/
+wp-content/themes/Divi/
+.vscode/
