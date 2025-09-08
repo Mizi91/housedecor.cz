@@ -237,12 +237,14 @@ aside #categories>div.categories:not(.active) {
 }
 
 .products-block.products div.product .p-in .p-in-in .ratings-wrapper {
-  flex-basis: 50%;
-  width: 50%;
+  /* flex-basis: 50%;
+  width: 50%; */
   display: flex;
   flex-direction: row;
   justify-content: start;
   margin: 0;
+  flex: 1 1 max-content;
+  width: max-content;
 }
 
 .products-block.products div.product .p-in .p-in-in .ratings-wrapper .availability {
@@ -263,6 +265,10 @@ aside #categories>div.categories:not(.active) {
   flex-direction: row;
   align-items: center;
   justify-content: end;
+  justify-self: end;
+  flex: 1 1 min-content;
+  width: min-content;
+  white-space: nowrap;
 }
 
 .products-block.products div.product .p-in .p-in-in .p-bottom>div {
@@ -413,6 +419,7 @@ aside #categories>div.categories:not(.active) {
   .products-block.products div.product .p-in .p-in-in .ratings-wrapper .availability span {
     min-height: unset;
     font-size: 0.8rem;
+    text-align: center;
   }
 
   .products-block.products div.product .p-in .p-in-in .p-bottom .prices {

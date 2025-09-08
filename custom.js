@@ -69,6 +69,9 @@ document.addEventListener('DOMContentLoaded', function () {
       if (availabilitySpan && availabilitySpan.textContent.includes('vyprodáno')) {
         availabilitySpan.style.color = '#c12921';
       }
+      if (availabilitySpan && availabilitySpan.textContent.includes('dodáme od')) {
+        availabilitySpan.style.color = '#60abb4';
+      }
     });
   });
 });
