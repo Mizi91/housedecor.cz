@@ -465,6 +465,19 @@ aside #categories>div.categories:not(.active) {
   }
 }
 
+/** Category detail **/
+.category-perex>h2:first-of-type {
+  margin-top: 0;
+  margin-bottom: 25px;
+  color: #1e1e1c;
+  text-transform: none;
+  font-family: 'DidotLTPro-Italic', serif !important;
+  font-size: 2.8em;
+  font-weight: 600;
+  font-style: italic !important;
+  letter-spacing: .5px;
+}
+
 /** Product detail **/
 .type-category main#content .category-top>h4 {
   display: block;
